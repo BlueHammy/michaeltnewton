@@ -67,34 +67,51 @@ ul {
 
 .projectsLeft{
 float: left;
-text-align: left;
 font-size: 20px;
+position: relative;
 
 }
 
 .projectsRight{
 float: right;
-text-align: right;
 font-size: 20px;
 
 }
 
 .projectsMiddle{
-padding: 10px 10px 10px 10px;
-text-align: center;
+float: left;
 font-size: 20px;
 position: absolute;
 left: 50%;
-transform: translatex(-50%);
-
+transform: translate(-50%, 0); 
 }
 
-#keepInline{
+#projectBlockOne{
+  clear: both;
+  display: inline-block;
+  width: 60vw;
   padding: 10px 10px 10px 10px;
-  position: relative;
-  width: auto;
+  left: 50%; 
+  transform: translate(-50%, 0); 
+  position: absolute;
+  
 }
 
+#imageBlockOne{
+  clear: both;
+  display: inline-block;
+  position: absolute;
+  width: 67vw;
+  padding: 10px 10px 10px 10px;
+  left: 50%; 
+  transform: translate(-50%, 20%); 
+}
+
+#secondImage{
+  position: absolute;
+left: 50%;
+transform: translate(-50%, 0); 
+}
 /* .list { //For Classes
     list-style: square;
   }

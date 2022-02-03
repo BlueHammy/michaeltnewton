@@ -65,53 +65,32 @@ ul {
   padding: 1025px 10px 10px 10px;
 }
 
-.projectsLeft{
+.headerBlock{
 float: left;
 font-size: 20px;
 position: relative;
 
 }
 
-.projectsRight{
-float: right;
-font-size: 20px;
-
-}
-
-.projectsMiddle{
-float: left;
-font-size: 20px;
-position: absolute;
-left: 50%;
-transform: translate(-50%, 0); 
-}
-
-#projectBlockOne{
+#projectBlock{
   clear: both;
   display: inline-block;
-  width: 60vw;
+  width: auto;
   padding: 10px 10px 10px 10px;
-  left: 50%; 
-  transform: translate(-50%, 0); 
-  position: absolute;
-  
+  left: 32.5%; 
+  transform: translate(-32.5%, 0); 
+  position: relative;
+  text-align: center;
 }
 
-#imageBlockOne{
+#imageBlock{
   clear: both;
   display: inline-block;
-  position: absolute;
-  width: 67vw;
-  padding: 10px 10px 10px 10px;
-  left: 50%; 
-  transform: translate(-50%, 20%); 
+  position: relative;
+  width: auto;
+  padding: 1px 1px 1px 1px; 
 }
 
-#secondImage{
-  position: absolute;
-left: 50%;
-transform: translate(-50%, 0); 
-}
 /* .list { //For Classes
     list-style: square;
   }

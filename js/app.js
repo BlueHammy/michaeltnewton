@@ -16,19 +16,3 @@ else{
 console.log('Current Class Name: ' + className); //logs to console
 
 });
-
-
-const homeButton = document.querySelector(".homeBttn");
-
-homeButton.onclick = function () {
-    location.href = "www.michaeltnewton.com";
-};
-
-
-const contactButton = document.querySelector(".contactBttn");
-
-contactButton.onclick = function () {
-    location.href = "www.michaeltnewton/views/pages/contactme.html";
-};
-
-//const afterWerkButton

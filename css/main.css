@@ -85,7 +85,7 @@ position: relative;
   display: inline-block;
   width: auto;
   padding: 10px 10px 10px 10px;
-  left: 32.5%; 
+  left: 28.7%; 
   transform: translate(-32.5%, 0); 
   position: relative;
   text-align: center;
@@ -139,42 +139,42 @@ position: relative;
   .bttn:focus { outline-style: none; }
 
   .homeBttn {
-    position: relative;
+    position: absolute;
     left: 100px;
     height: 45px;
-    top: 5px;
-    width: 80px;
+    top: 15px;
+    width: 0px;
     border: none;
     color: var(--navBarBttns);
     background-color: var(--navBg);
     font-family: 'print_boldregular';
     font-size: 20px;
-    left: 42.5%;  
+    left: 48%;  
   }
 
   .contactBttn {
-    position: relative;
+    position: absolute;
     left: 100px;
     height: 45px;
-    top: 5px;
-    width: 80px;
+    top: 15px;
+    width: 0px;
     border: none;
     color: var(--navBarBttns);
     background-color: var(--navBg);
     font-family: 'print_boldregular';
     font-size: 20px;
-    left: 50%;  
+    left: 70%;  
   }
 
   .afterwerkBttn {
-    position: relative;
-    left: 100px;
-    height: 45px;
-    top: 5px;
+    position: absolute;
+    height: 5px;
+    top: 15px;
     width: 200px;
     border: none;
     color: var(--navBarBttns);
     background-color: var(--navBg);
     font-family: 'print_boldregular';
     font-size: 20px;  
+    left: 20%;
   }

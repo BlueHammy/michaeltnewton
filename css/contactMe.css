@@ -178,30 +178,3 @@ position: relative;
     font-size: 20px;  
     left: 20%;
   }
-
-#GHFormatting{
-    clear: both;
-    display: inline-block;
-    position: relative;
-    width: 3px;
-    height: 3px;
-    padding: 1px 1px 1px 1px;
-  }
-
-  #GMAILFormatting{
-    clear: both;
-    display: inline-block;
-    position: relative;
-    width: 30px;
-    height: auto;
-    padding: 1px 1px 1px 1px; 
-  }
-
-  #LIFormatting{
-    clear: both;
-    display: inline-block;
-    position: relative;
-    width: 30px;
-    height: auto;
-    padding: 1px 1px 1px 1px; 
-  }

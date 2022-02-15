@@ -139,42 +139,34 @@ position: relative;
   .bttn:focus { outline-style: none; }
 
   .homeBttn {
-    position: absolute;
-    left: 100px;
+    position: relative;
     height: 45px;
-    top: 15px;
-    width: 0px;
-    border: none;
+    top: 5px;
     color: var(--navBarBttns);
     background-color: var(--navBg);
     font-family: 'print_boldregular';
     font-size: 20px;
-    left: 48%;  
+    margin-left: 6%;
   }
 
   .contactBttn {
-    position: absolute;
-    left: 100px;
+    position: relative;
     height: 45px;
-    top: 15px;
-    width: 0px;
-    border: none;
+    top: 5px;
     color: var(--navBarBttns);
     background-color: var(--navBg);
     font-family: 'print_boldregular';
     font-size: 20px;
-    left: 70%;  
+    margin-left: 6%;
   }
 
   .afterwerkBttn {
-    position: absolute;
+    position: relative;
     height: 5px;
-    top: 15px;
-    width: 200px;
-    border: none;
+    top: 5px;
     color: var(--navBarBttns);
     background-color: var(--navBg);
     font-family: 'print_boldregular';
     font-size: 20px;  
-    left: 20%;
+    margin-left: 28%;
   }
